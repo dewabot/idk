@@ -1,1 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "chainmine",
+  "version": "${version}",
+  "name": "ChainMine",
+  "description": "Tahan sneak sambil mining batu/blok tertentu dengan pickaxe apa pun untuk menghancurkan blok sejenis yang saling menempel. Bijih tidak termasuk.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.chainmine.ChainMine"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
 
